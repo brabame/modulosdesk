@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:300,400,600,700,900&subset=latin-ext);
+
+
+*{
+	margin:0;
+	padding: 0;		
+  	font-family: 'Muli', sans-serif;
+  	color: #425055;
+  	font-size: 0.9rem;
+}
+
+body{
+	background-color: #F7F6F5;
+}
+
+.container{
+
+}
+
+header{
+	background-color: #F3F2F0;
+}
+
+nav{
+	margin: 0px 14.5px;
+	padding: 30px 10px;
+}
+
+.nav-content{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-content .nav-content-left{
+	display: flex;
+    flex: 1 1 100%;
+    align-items: center
+}
+
+.nav-content .nav-content-center{
+	/*width: 69%;*/
+}
+
+.nav-content .nav-content-right{
+	/*width: 35%;*/
+	display: flex;
+    flex: 1 1 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-content .nav-content-link{
+	text-decoration: none;
+	padding: 0.35714rem;
+	color: #43525A;
+	font-size: 1.1rem;
+}
+
+.nav-content .nav-content-separator{
+	width: 1px;
+	height: 1.71429rem;
+	background-color: #43525A;
+	margin: 0 0.71429rem;
+}
+
+.nav-content .nav-content-logo{	
+	flex: 0 0 14.28571rem;
+    width: 14.28rem;
+}
